@@ -72,11 +72,11 @@ public class ArquivoBinario {
     
     public void gravarDados (Carro al) {
         try {
-             output.writeObject (al);
+            output.writeObject (al);
         }
         catch (IOException ioException){
             System.err.println("Erro de gravação");
             System.exit(1);
         }
-    }
+    }   
 }
